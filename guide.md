@@ -347,7 +347,10 @@ Done. Uploaded: 1, skipped: 0
 ---
 ## <> Code
 
-Copy this code into a text editor, save it as uploademojis_command.py (not .txt), ensure Python and discord.py are installed, then run python bot.py.
+1. Copy the code below into a text editor.
+2. Save it as `uploademojis_command.py` (not .txt)
+3. Ensure Python and discord.py are installed
+4. Run the bot (step 7)
 ```python
 import os
 import re
@@ -430,3 +433,4 @@ else:
 
 
 ```
+
