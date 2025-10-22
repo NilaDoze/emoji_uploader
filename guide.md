@@ -123,7 +123,8 @@ Your bot needs:
 
 ### 4c – Build the Final Link
 
-Replace `APPLICATION_ID` and `PERMISSIONS_INTEGER` in the link above.
+Replace `APPLICATION_ID` and `PERMISSIONS_INTEGER` in the link above. 
+Tip: You can optionally save this link under `Developer Portal → Installation → Install Link → Custom URL`.
 
 Open this link → select your server → click **Authorise**. 
 
@@ -435,6 +436,7 @@ else:
 
 
 ```
+
 
 
 
