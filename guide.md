@@ -352,7 +352,7 @@ Done. Uploaded: 1, skipped: 0
 
 1. Copy the code below into a text editor.
 2. Save it as `uploademojis_command.py` (not .txt)
-3. Ensure [`Python`](#%EF%B8%8F-prerequisites) and [discord.py`](#%EF%B8%8F-prerequisites) are installed
+3. Ensure [`Python`](#%EF%B8%8F-prerequisites) and [`discord.py`](#%EF%B8%8F-prerequisites) are installed
 ```python
 import os
 import re
@@ -435,6 +435,7 @@ else:
 
 
 ```
+
 
 
 
