@@ -137,7 +137,7 @@ Open this link → select your server → click **Authorise**.
 
 Instead of hardcoding (writing fixed values directly in code) sensitive data like your token, you can use **environment variables**:
 
-1. Open PowerShell / CMD(Terminal) and type `cd` and your folder path to `emoji_installation` (folder where the command code is located at):
+1. Open PowerShell / CMD(Terminal) and type `cd` and your folder path to `emoji_installation` (alternatively create a new folder where the [python file](#code) is located at):
 
 ![Alt Text](https://cdn.discordapp.com/attachments/1292944073702768730/1430468761307185172/image.png?ex=68f9e359&is=68f891d9&hm=1862b47c75a2146618e19dd6353ba0b2f5fd365bed594313a0e05b057147d720&) 
     
@@ -350,7 +350,6 @@ Done. Uploaded: 1, skipped: 0
 1. Copy the code below into a text editor.
 2. Save it as `uploademojis_command.py` (not .txt)
 3. Ensure Python and discord.py are installed
-4. Run the bot (step 7)
 ```python
 import os
 import re
@@ -433,4 +432,5 @@ else:
 
 
 ```
+
 
