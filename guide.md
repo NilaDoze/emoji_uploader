@@ -164,8 +164,11 @@ If you close the terminal, you’ll need to set them again.
 
 - `DISCORD_TOKEN` → your bot token (Developer Portal → Bot).
 
+![Alt Text](https://cdn.discordapp.com/attachments/1292944073702768730/1430518089526546522/image.png?ex=68fa114a&is=68f8bfca&hm=5bc2d7863128f979bdcc1c3ed1d6c85eac97e47a66ec162d5b27962fa8c8793c&)
 - `GUILD_ID` → your server ID.
 
+![Alt Text](https://cdn.discordapp.com/attachments/1292944073702768730/1430517678304657519/image.png?ex=68fa10e8&is=68f8bf68&hm=6fe7e52991bb1b30192ab897e8e36a92895a233733578d096dcf5f9056ee1f9d&)
+(Right click)
 - `EMOJI_FOLDER` → folder path with your emoji images.
 
 Using environment variables keeps your token secret and allows easier sharing of the code.
@@ -432,6 +435,7 @@ else:
 
 
 ```
+
 
 
 
