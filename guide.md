@@ -78,7 +78,7 @@ This allows your bot to read messages in Discord, which is required for commands
 
 ## 3️⃣ Prepare Your Emoji Folder
 
-1. Create a new folder. Alternatively, if you bought my emoji pack you'll be given a folder cantaining all the emoji images (e.g. `flags`). You can **add or replace** images in this folder to upload **additional emojis** in the same way.    
+1. Create a new folder. Alternatively, if you bought my emoji pack you'll be given a folder containing all the emoji images (e.g. `flags`). You can **add or replace** images in this folder to upload **additional emojis** in the same way.    
 `C:\..\flags`
 
 2. Make sure all images you want to upload are in this folder.  
@@ -346,6 +346,8 @@ Done. Uploaded: 1, skipped: 0
 
 ---
 ## <> Code
+
+Copy this code into a text editor, save it as uploademojis_command.py (not .txt), ensure Python and discord.py are installed, then run python bot.py.
 ```python
 import os
 import re
@@ -425,5 +427,6 @@ if not TOKEN:
     print("Missing DISCORD_TOKEN environment variable.")
 else:
     bot.run(TOKEN)
+
 
 ```
